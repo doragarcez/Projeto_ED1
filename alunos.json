@@ -1,0 +1,562 @@
+[
+    {
+        "RGM": "20230001",
+        "disciplinas": [
+            "Psicologia",
+            "Banco de Dados",
+            "Arquitetura de Computadores"
+        ]
+    },
+    {
+        "RGM": "20230002",
+        "disciplinas": [
+            "Sistemas Operacionais",
+            "Química Inorgânica",
+            "Machine Learning",
+            "Cálculo",
+            "Arquitetura de Computadores"
+        ]
+    },
+    {
+        "RGM": "20230003",
+        "disciplinas": [
+            "Química Orgânica",
+            "Computação Gráfica",
+            "Bioquímica",
+            "Data Science",
+            "Lógica de Programação",
+            "Sistemas Operacionais"
+        ]
+    },
+    {
+        "RGM": "20230004",
+        "disciplinas": [
+            "Empreendedorismo",
+            "Arquitetura de Computadores",
+            "História",
+            "Data Science",
+            "Genética",
+            "Administração"
+        ]
+    },
+    {
+        "RGM": "20230005",
+        "disciplinas": [
+            "Cálculo",
+            "Empreendedorismo",
+            "Redes",
+            "Machine Learning"
+        ]
+    },
+    {
+        "RGM": "20230006",
+        "disciplinas": [
+            "História",
+            "Robótica",
+            "Geografia",
+            "Design Thinking"
+        ]
+    },
+    {
+        "RGM": "20230007",
+        "disciplinas": [
+            "Química Orgânica",
+            "Física",
+            "Arquitetura de Computadores"
+        ]
+    },
+    {
+        "RGM": "20230008",
+        "disciplinas": [
+            "Álgebra Linear",
+            "Marketing"
+        ]
+    },
+    {
+        "RGM": "20230009",
+        "disciplinas": [
+            "Química Inorgânica",
+            "Sistemas Operacionais",
+            "Direito Constitucional"
+        ]
+    },
+    {
+        "RGM": "20230010",
+        "disciplinas": [
+            "Empreendedorismo",
+            "Programação",
+            "Psicologia",
+            "Álgebra Linear"
+        ]
+    },
+    {
+        "RGM": "20230011",
+        "disciplinas": [
+            "Geografia",
+            "Álgebra Linear",
+            "Cálculo",
+            "Química",
+            "Mecânica dos Fluidos"
+        ]
+    },
+    {
+        "RGM": "20230012",
+        "disciplinas": [
+            "Química",
+            "Sistemas Operacionais",
+            "Cálculo",
+            "Direito Constitucional",
+            "Bioquímica",
+            "Matemática"
+        ]
+    },
+    {
+        "RGM": "20230013",
+        "disciplinas": [
+            "Robótica",
+            "Inteligência Artificial",
+            "Genética",
+            "Nanotecnologia",
+            "Estatística"
+        ]
+    },
+    {
+        "RGM": "20230014",
+        "disciplinas": [
+            "Mecânica dos Fluidos",
+            "Empreendedorismo",
+            "Eletromagnetismo"
+        ]
+    },
+    {
+        "RGM": "20230015",
+        "disciplinas": [
+            "Botânica",
+            "Design Thinking",
+            "Nanotecnologia",
+            "Astronomia",
+            "Gestão de Projetos",
+            "Sistemas Operacionais"
+        ]
+    },
+    {
+        "RGM": "20230016",
+        "disciplinas": [
+            "Sociologia",
+            "Cálculo",
+            "Álgebra Linear",
+            "Química Inorgânica",
+            "Gestão de Projetos",
+            "Data Science"
+        ]
+    },
+    {
+        "RGM": "20230017",
+        "disciplinas": [
+            "Análise de Algoritmos",
+            "Química Inorgânica",
+            "Química"
+        ]
+    },
+    {
+        "RGM": "20230018",
+        "disciplinas": [
+            "Empreendedorismo",
+            "Computação Gráfica",
+            "Eletromagnetismo",
+            "Ecologia",
+            "Genética"
+        ]
+    },
+    {
+        "RGM": "20230019",
+        "disciplinas": [
+            "Genética",
+            "Inteligência Artificial",
+            "Química",
+            "Economia"
+        ]
+    },
+    {
+        "RGM": "20230020",
+        "disciplinas": [
+            "Arquitetura de Computadores",
+            "Direito Constitucional",
+            "Matemática",
+            "Geografia",
+            "Marketing",
+            "Química Orgânica"
+        ]
+    },
+    {
+        "RGM": "20230021",
+        "disciplinas": [
+            "Redes",
+            "Filosofia",
+            "Arquitetura de Computadores"
+        ]
+    },
+    {
+        "RGM": "20230022",
+        "disciplinas": [
+            "Design Thinking",
+            "Marketing",
+            "Bioquímica"
+        ]
+    },
+    {
+        "RGM": "20230023",
+        "disciplinas": [
+            "Inteligência Artificial",
+            "Genética",
+            "Sistemas Operacionais",
+            "Arquitetura de Computadores",
+            "Química"
+        ]
+    },
+    {
+        "RGM": "20230024",
+        "disciplinas": [
+            "Engenharia de Software",
+            "Química"
+        ]
+    },
+    {
+        "RGM": "20230025",
+        "disciplinas": [
+            "Álgebra Linear",
+            "Banco de Dados",
+            "Genética"
+        ]
+    },
+    {
+        "RGM": "20230026",
+        "disciplinas": [
+            "Nanotecnologia",
+            "Sociologia",
+            "Administração",
+            "Química",
+            "Psicologia"
+        ]
+    },
+    {
+        "RGM": "20230027",
+        "disciplinas": [
+            "Química Inorgânica",
+            "Ecologia",
+            "Cálculo",
+            "Design Thinking",
+            "Gestão de Projetos"
+        ]
+    },
+    {
+        "RGM": "20230028",
+        "disciplinas": [
+            "Genética",
+            "Eletromagnetismo",
+            "Engenharia de Software",
+            "Marketing",
+            "Data Science",
+            "Geografia"
+        ]
+    },
+    {
+        "RGM": "20230029",
+        "disciplinas": [
+            "Matemática",
+            "Marketing"
+        ]
+    },
+    {
+        "RGM": "20230030",
+        "disciplinas": [
+            "Genética",
+            "Gestão de Projetos",
+            "Análise de Algoritmos",
+            "Banco de Dados"
+        ]
+    },
+    {
+        "RGM": "20230031",
+        "disciplinas": [
+            "Estatística",
+            "História",
+            "Botânica",
+            "Empreendedorismo"
+        ]
+    },
+    {
+        "RGM": "20230032",
+        "disciplinas": [
+            "Empreendedorismo",
+            "Ecologia",
+            "Bioquímica",
+            "Data Science",
+            "Química"
+        ]
+    },
+    {
+        "RGM": "20230033",
+        "disciplinas": [
+            "Sociologia",
+            "Filosofia",
+            "Estatística"
+        ]
+    },
+    {
+        "RGM": "20230034",
+        "disciplinas": [
+            "Psicologia",
+            "Robótica"
+        ]
+    },
+    {
+        "RGM": "20230035",
+        "disciplinas": [
+            "Matemática",
+            "Psicologia",
+            "História",
+            "Química",
+            "Inteligência Artificial",
+            "Machine Learning"
+        ]
+    },
+    {
+        "RGM": "20230036",
+        "disciplinas": [
+            "Robótica",
+            "Direito Constitucional",
+            "Bioquímica",
+            "Geografia",
+            "Química",
+            "Design Thinking"
+        ]
+    },
+    {
+        "RGM": "20230037",
+        "disciplinas": [
+            "Design Thinking",
+            "Eletromagnetismo",
+            "História",
+            "Data Science",
+            "Sistemas Operacionais",
+            "Filosofia"
+        ]
+    },
+    {
+        "RGM": "20230038",
+        "disciplinas": [
+            "Lógica de Programação",
+            "Zoologia"
+        ]
+    },
+    {
+        "RGM": "20230039",
+        "disciplinas": [
+            "Marketing",
+            "Sociologia",
+            "Gestão de Projetos",
+            "Administração",
+            "Astronomia",
+            "Robótica"
+        ]
+    },
+    {
+        "RGM": "20230040",
+        "disciplinas": [
+            "Cálculo",
+            "Arquitetura de Computadores",
+            "Sistemas Operacionais",
+            "Química Inorgânica",
+            "Data Science",
+            "Análise de Algoritmos"
+        ]
+    },
+    {
+        "RGM": "20230041",
+        "disciplinas": [
+            "Marketing",
+            "Engenharia de Software",
+            "Eletromagnetismo",
+            "Empreendedorismo"
+        ]
+    },
+    {
+        "RGM": "20230042",
+        "disciplinas": [
+            "Inteligência Artificial",
+            "Bioquímica",
+            "Direito Penal",
+            "Química Orgânica",
+            "Sociologia",
+            "Machine Learning"
+        ]
+    },
+    {
+        "RGM": "20230043",
+        "disciplinas": [
+            "Filosofia",
+            "Machine Learning",
+            "Lógica de Programação",
+            "Robótica",
+            "Ecologia"
+        ]
+    },
+    {
+        "RGM": "20230044",
+        "disciplinas": [
+            "Geografia",
+            "Marketing",
+            "Inteligência Artificial",
+            "Sociologia"
+        ]
+    },
+    {
+        "RGM": "20230045",
+        "disciplinas": [
+            "Redes",
+            "Psicologia",
+            "Empreendedorismo"
+        ]
+    },
+    {
+        "RGM": "20230046",
+        "disciplinas": [
+            "Estatística",
+            "Ecologia",
+            "Gestão de Projetos",
+            "Sistemas Operacionais",
+            "Eletromagnetismo"
+        ]
+    },
+    {
+        "RGM": "20230047",
+        "disciplinas": [
+            "Banco de Dados",
+            "Filosofia",
+            "Química Orgânica",
+            "Estatística"
+        ]
+    },
+    {
+        "RGM": "20230048",
+        "disciplinas": [
+            "Bioquímica",
+            "Psicologia",
+            "Botânica",
+            "Arquitetura de Computadores",
+            "Administração",
+            "Astronomia"
+        ]
+    },
+    {
+        "RGM": "20230049",
+        "disciplinas": [
+            "Química",
+            "Sistemas Operacionais",
+            "Engenharia de Software",
+            "Nanotecnologia",
+            "Programação",
+            "Genética"
+        ]
+    },
+    {
+        "RGM": "20230050",
+        "disciplinas": [
+            "Análise de Algoritmos",
+            "Data Science",
+            "Inteligência Artificial",
+            "Genética",
+            "Arquitetura de Computadores"
+        ]
+    },
+    {
+        "RGM": "20230051",
+        "disciplinas": [
+            "Arquitetura de Computadores",
+            "Design Thinking",
+            "Lógica de Programação"
+        ]
+    },
+    {
+        "RGM": "20230052",
+        "disciplinas": [
+            "Zoologia",
+            "Química Inorgânica",
+            "Inteligência Artificial",
+            "Machine Learning"
+        ]
+    },
+    {
+        "RGM": "20230053",
+        "disciplinas": [
+            "Geografia",
+            "Mecânica dos Fluidos",
+            "Nanotecnologia",
+            "Empreendedorismo",
+            "Lógica de Programação",
+            "Filosofia"
+        ]
+    },
+    {
+        "RGM": "20230054",
+        "disciplinas": [
+            "Design Thinking",
+            "Estatística"
+        ]
+    },
+    {
+        "RGM": "20230055",
+        "disciplinas": [
+            "Design Thinking",
+            "Programação",
+            "Banco de Dados",
+            "Lógica de Programação"
+        ]
+    },
+    {
+        "RGM": "20230056",
+        "disciplinas": [
+            "Química Inorgânica",
+            "Banco de Dados",
+            "Nanotecnologia",
+            "Análise de Algoritmos",
+            "Eletromagnetismo"
+        ]
+    },
+    {
+        "RGM": "20230057",
+        "disciplinas": [
+            "Arquitetura de Computadores",
+            "Marketing",
+            "Redes",
+            "Álgebra Linear",
+            "Direito Penal",
+            "Química"
+        ]
+    },
+    {
+        "RGM": "20230058",
+        "disciplinas": [
+            "Eletromagnetismo",
+            "Sistemas Operacionais",
+            "Ecologia",
+            "Química Orgânica"
+        ]
+    },
+    {
+        "RGM": "20230059",
+        "disciplinas": [
+            "Mecânica dos Fluidos",
+            "Geografia"
+        ]
+    },
+    {
+        "RGM": "20230060",
+        "disciplinas": [
+            "Cálculo",
+            "Filosofia",
+            "Engenharia de Software"
+        ]
+    }
+]
