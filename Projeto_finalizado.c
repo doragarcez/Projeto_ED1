@@ -1,22 +1,22 @@
 /*Considere uma sala de 60 alunos (tamanho conhecido). Cada aluno
 identificado pelo seu RGM possui sua lista de disciplinas (tamanho
-vari·vel para cada aluno). Desenvolver uma aplicaÁ„o que:
-ï realize o cadastro EM ORDEM DO RGM de n alunos e, para cada
-aluno, m disciplinas (controlar com pergunta ìMais disciplina?î);
-ï mostre todos alunos, e respectivas disciplinas, cadastrados;
-ï procure um aluno pelo RGM e mostre seus dados, caso exista, ou
-mensagem de ìn„o existeî;
-ï remova um aluno localizado pelo RGM;
-ï mostre a lista resultante apÛs a remoÁ„o do aluno.
-ObrigatÛrio utilizar lista SEQUENCIAL (alunos) e ENCADEADA
+vari√°vel para cada aluno). Desenvolver uma aplica√ß√£o que:
+‚Ä¢ realize o cadastro EM ORDEM DO RGM de n alunos e, para cada
+aluno, m disciplinas (controlar com pergunta ‚ÄúMais disciplina?‚Äù);
+‚Ä¢ mostre todos alunos, e respectivas disciplinas, cadastrados;
+‚Ä¢ procure um aluno pelo RGM e mostre seus dados, caso exista, ou
+mensagem de ‚Äún√£o existe‚Äù;
+‚Ä¢ remova um aluno localizado pelo RGM;
+‚Ä¢ mostre a lista resultante ap√≥s a remo√ß√£o do aluno.
+Obrigat√≥rio utilizar lista SEQUENCIAL (alunos) e ENCADEADA
 (disciplinas);
-ï Seguir a arquitetura conceitual da figura fornecida;
-ï Implementar em C ou Java (n„o usar classes ArrayList e LinkedList do
+‚Ä¢ Seguir a arquitetura conceitual da figura fornecida;
+‚Ä¢ Implementar em C ou Java (n√£o usar classes ArrayList e LinkedList do
 java)
-ï AplicaÁ„o tipo console (sem interface gr·fica), oferecendo um menu
-de opÁıes (incluir, buscar, mostrar, remover);
-ï AtenÁ„o para a inserÁ„o ORDENADA de alunos pelo RGM;
-ï AlocaÁ„o da lista sequencial È est·tica e a encadeada È din‚mica;*/
+‚Ä¢ Aplica√ß√£o tipo console (sem interface gr√°fica), oferecendo um menu
+de op√ß√µes (incluir, buscar, mostrar, remover);
+‚Ä¢ Aten√ß√£o para a inser√ß√£o ORDENADA de alunos pelo RGM;
+‚Ä¢ Aloca√ß√£o da lista sequencial √© est√°tica e a encadeada √© din√¢mica;*/
 
 //Bibliotecas usadas no codigo
 #include <stdio.h>
@@ -24,12 +24,12 @@ de opÁıes (incluir, buscar, mostrar, remover);
 #include <string.h>
 #include <locale.h>
 
-//definiÁ„o das constantes
+//defini√ß√£o das constantes
 #define Quantidade_Alunos 60
 #define TamanhoRgm 8
 #define TamanhoDisciplinas 50
 
-// Lista encadeada din‚mica de Disciplinas
+// Lista encadeada din√¢mica de Disciplinas
 typedef struct Disciplina {
     char nome[TamanhoDisciplinas];
     struct Disciplina* prox;
@@ -41,7 +41,7 @@ typedef struct {
     Disciplina* disciplinas;
 } Aluno;
 
-//FunÁ„o para ordenar alunos por RGM
+//Fun√ß√£o para ordenar alunos por RGM
 void ordenacao(Aluno alunos[], int* num_alunos, Aluno novo){
     int i = *num_alunos - 1;
     while (i >= 0 && strcmp(novo.rgm, alunos[i].rgm) < 0){
@@ -52,9 +52,9 @@ void ordenacao(Aluno alunos[], int* num_alunos, Aluno novo){
     (*num_alunos)++;
 }
 
-//FunÁ„o para cadastrar os alunos 
+//Fun√ß√£o para cadastrar os alunos 
 void cadastrar_aluno(Aluno alunos[], int* num_alunos){
-	//Verfifica se tem espaÁo
+	//Verfifica se tem espa√ßo
     if (*num_alunos >= Quantidade_Alunos){           
         printf("Limite de alunos atingido!\n");
         return;
@@ -65,9 +65,9 @@ void cadastrar_aluno(Aluno alunos[], int* num_alunos){
     scanf("%s", novo.rgm);
 
     for (int i = 0; i < *num_alunos; i++){
-    	//Verifica se o rgm j· est· cadastrado
+    	//Verifica se o rgm j√° est√° cadastrado
         if (strcmp(alunos[i].rgm, novo.rgm) == 0){
-            printf("RGM j· cadastrado.\n");
+            printf("RGM j√° cadastrado.\n");
             return;
         }
     }
@@ -84,7 +84,7 @@ void cadastrar_aluno(Aluno alunos[], int* num_alunos){
 
         Disciplina* nova = (Disciplina*)malloc(sizeof(Disciplina));
         if (!nova){
-            printf("Erro de AlocaÁ„o!\n");
+            printf("Erro de Aloca√ß√£o!\n");
             exit(1);
         }
         strcpy(nova->nome, nome_disciplina);
@@ -99,7 +99,7 @@ void cadastrar_aluno(Aluno alunos[], int* num_alunos){
     printf("Aluno cadastrado com sucesso!\n");
 }
 
-//FunÁ„o para exibir os alunos e suas disciplinas
+//Fun√ß√£o para exibir os alunos e suas disciplinas
 void exibir_alunos(Aluno alunos[], int num_alunos) {
     if (num_alunos == 0) {
         printf("Nenhum aluno cadastrado.\n");
@@ -118,7 +118,7 @@ void exibir_alunos(Aluno alunos[], int num_alunos) {
     }
 }
 
-//FunÁ„o para buscar os alunos e se encontrado mostrar 
+//Fun√ß√£o para buscar os alunos e se encontrado mostrar 
 void buscar_aluno(Aluno alunos[], int num_alunos) {
     char rgm_buscado[TamanhoRgm];
     printf("Digite o RGM do aluno que deseja buscar: ");
@@ -137,10 +137,10 @@ void buscar_aluno(Aluno alunos[], int num_alunos) {
         }
     }
 
-    printf("Aluno com RGM %s n„o encontrado.\n", rgm_buscado); //Caso n„o encontre
+    printf("Aluno com RGM %s n√£o encontrado.\n", rgm_buscado); //Caso n√£o encontre
 }
 
-//Liberar a mÈmoria da lista de disciplinas
+//Liberar a m√©moria da lista de disciplinas
 void liberar_memoria(Disciplina* d){
     while (d) {
         Disciplina* temp = d;
@@ -149,7 +149,7 @@ void liberar_memoria(Disciplina* d){
     }
 }
 
-//FunÁ„o para apagar o aluno pelo rgm
+//Fun√ß√£o para apagar o aluno pelo rgm
 void excluir_aluno(Aluno alunos[], int* num_alunos){
     char rgm_buscado[TamanhoRgm];
     printf("Digite o RGM do aluno que deseja excluir: ");
@@ -167,10 +167,10 @@ void excluir_aluno(Aluno alunos[], int* num_alunos){
         }
     }
 
-    printf("Aluno com RGM %s n„o foi encontrado. \n", rgm_buscado); //Caso n„o encontre
+    printf("Aluno com RGM %s n√£o foi encontrado. \n", rgm_buscado); //Caso n√£o encontre
 }
 
-//FunÁ„o para exibir o menu
+//Fun√ß√£o para exibir o menu
 void exibir_menu() {
     printf("x --------- M E N U --------- x\n");
     printf("| [1] Cadastrar Alunos        |\n");
@@ -194,7 +194,7 @@ int main() {
         exibir_menu();
         scanf("%d", &opcao);
         
-        //swith para chamar as funÁıes void
+        //swith para chamar as fun√ß√µes void
         switch (opcao){
             case 1:
                 cadastrar_aluno(alunos, &num_alunos);
@@ -212,11 +212,11 @@ int main() {
                 printf("Encerrando o programa...\n");
                 break;
             default:
-                printf("OpÁ„o Inv·lida!\n"); //Para o caso do usu·rio escolha algo diferente de 1,2,3,4 e 5
+                printf("Op√ß√£o Inv√°lida!\n"); //Para o caso do usu√°rio escolha algo diferente de 1,2,3,4 e 5
         }
     } while (opcao != 5); 
     
-    //Limpa a memÛria depois que o programa termina 
+    //Limpa a mem√≥ria depois que o programa termina 
     for (int i = 0; i < num_alunos; i++){
         liberar_memoria(alunos[i].disciplinas);
     }
