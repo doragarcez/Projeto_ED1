@@ -16,7 +16,9 @@ java)
 • Aplicação tipo console (sem interface gráfica), oferecendo um menu
 de opções (incluir, buscar, mostrar, remover);
 • Atenção para a inserção ORDENADA de alunos pelo RGM;
-• Alocação da lista sequencial é estática e a encadeada é dinâmica;*/
+• Alocação da lista sequencial é estática e a encadeada é dinâmica;
+
+Grupo: Gabrielle, Isadora e Vitória*/
 
 //Bibliotecas usadas no codigo
 #include <stdio.h>
